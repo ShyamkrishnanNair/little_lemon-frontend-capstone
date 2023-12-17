@@ -1,0 +1,65 @@
+.hero {
+  height: 45vh;
+  background-color: #495e57;
+}
+
+.hero-container {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  margin: 2vw;
+  margin-left: 12.5vw;
+}
+
+.hero-title {
+  font-family: "Markazi Text", serif;
+  font-size: 50pt;
+  margin: 0;
+  color: #f4ce14;
+}
+
+.hero-subtitle {
+  font-family: "Markazi Text", serif;
+  font-size: 30pt;
+  margin: 0;
+  color: white;
+}
+
+.hero-desc {
+  font-family: "Karla", sans-serif;
+  font-size: 14pt;
+  color: white;
+}
+
+.reserve-btn {
+  font-size: 10pt;
+  width: 10vw;
+  padding: 1vh;
+  border: 3px solid #f4ce14;
+  font-weight: bolder;
+  border-radius: 25px;
+  background: linear-gradient(to right, #f4ce14 50%, #ffff 50%);
+  background-size: 200% 100%;
+  background-position: bottom right;
+  transition: all 0.7s ease-out;
+}
+
+.reserve-btn:hover {
+  background-position: bottom left;
+}
+
+.img-container {
+  margin-left: 10vw;
+  margin-top: 5vh;
+}
+
+.hero-img {
+  height: 55vh;
+  width: 25vw;
+  border-radius: 5%;
+}

@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 15vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #edefee;
+}
+
+.header img {
+  height: 6em;
+  margin-left: 10vw;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+li {
+  margin-left: 1.5vw;
+}
+
+.nav-item {
+  color: #495e57;
+  font-family: "Markazi", sans-serif;
+  font-size: 12pt;
+  padding: 1.5vh;
+  border: 3px solid #495e57;
+  border-radius: 50px;
+  background: linear-gradient(to right, #f4ce14 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: bottom right;
+  transition: all 0.7s ease-in-out;
+}
+a {
+  text-decoration: none;
+}
+.nav-item:hover {
+  cursor: pointer;
+  background-color: #f4ce14;
+  background-position: bottom left;
+}
