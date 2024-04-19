@@ -1,15 +1,15 @@
 .header {
   display: flex;
   flex-direction: row;
-  height: 15vh;
+  height: 7rem;
   justify-content: center;
   align-items: center;
-  background-color: #edefee;
+  background-color: var(--tertiary-color);
 }
 
 .header img {
-  height: 6em;
-  margin-left: 10vw;
+  height: 6rem;
+  margin-left: 7rem;
 }
 
 ul {
@@ -19,17 +19,17 @@ ul {
 }
 
 li {
-  margin-left: 1.5vw;
+  margin-left: 1rem;
 }
 
 .nav-item {
-  color: #495e57;
+  color: var(--secondary-color);
   font-family: "Markazi", sans-serif;
   font-size: 12pt;
-  padding: 1.5vh;
-  border: 3px solid #495e57;
+  padding: 0.65rem;
+  border: 3px solid var(--secondary-color);
   border-radius: 50px;
-  background: linear-gradient(to right, #f4ce14 50%, white 50%);
+  background: linear-gradient(to right, var(--primary-color) 50%, white 50%);
   background-size: 200% 100%;
   background-position: bottom right;
   transition: all 0.7s ease-in-out;
@@ -39,6 +39,6 @@ a {
 }
 .nav-item:hover {
   cursor: pointer;
-  background-color: #f4ce14;
+  background-color: var(--primary-color);
   background-position: bottom left;
 }

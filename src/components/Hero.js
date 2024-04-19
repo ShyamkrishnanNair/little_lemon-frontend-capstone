@@ -5,11 +5,11 @@ import HeroImg from '../images/restaurant-food.jpg'
 
 export default function Hero() {
     return (
-        <div className='hero'>
+        <section className='hero'>
             <div className="hero-container">
                 <div className="hero-content">
                     <p className='hero-title'>Little Lemon</p>
-                    <p className='hero-subtitle'>Chicago</p>
+                    <p className='hero-location'>Chicago</p>
                     <p className='hero-desc'>We are a family owned Mediterranean restaurant, <br />
                         focused on traditional recipes served with a modern twist.</p>
                     <button className='reserve-btn'><Link to="/reservation">RESERVE A TABLE</Link></button>
@@ -19,6 +19,6 @@ export default function Hero() {
                     <img src={HeroImg} alt="" className='hero-img' />
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

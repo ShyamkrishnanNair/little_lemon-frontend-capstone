@@ -1,6 +1,6 @@
 .hero {
-  height: 45vh;
-  background-color: #495e57;
+  height: 20rem;
+  background-color: var(--secondary-color);
 }
 
 .hero-container {
@@ -12,18 +12,18 @@
 .hero-content {
   display: flex;
   flex-direction: column;
-  margin: 2vw;
-  margin-left: 12.5vw;
+  margin: 2rem;
+  margin-left: 12rem;
 }
 
 .hero-title {
   font-family: "Markazi Text", serif;
   font-size: 50pt;
   margin: 0;
-  color: #f4ce14;
+  color: var(--primary-color);
 }
 
-.hero-subtitle {
+.hero-location {
   font-family: "Markazi Text", serif;
   font-size: 30pt;
   margin: 0;
@@ -38,12 +38,13 @@
 
 .reserve-btn {
   font-size: 10pt;
-  width: 10vw;
-  padding: 1vh;
-  border: 3px solid #f4ce14;
+  width: 10rem;
+  padding: 0.75rem;
+  border: 3px solid;
+  color: var(--primary-color);
   font-weight: bolder;
   border-radius: 25px;
-  background: linear-gradient(to right, #f4ce14 50%, #ffff 50%);
+  background: linear-gradient(to right, var(--primary-color) 50%, #ffff 50%);
   background-size: 200% 100%;
   background-position: bottom right;
   transition: all 0.7s ease-out;
@@ -51,15 +52,16 @@
 
 .reserve-btn:hover {
   background-position: bottom left;
+  border: 3px solid #caa905;
 }
 
 .img-container {
-  margin-left: 10vw;
-  margin-top: 5vh;
+  margin-left: 10rem;
+  margin-top: 2.5rem;
 }
 
 .hero-img {
-  height: 55vh;
-  width: 25vw;
+  height: 25rem;
+  width: 25rem;
   border-radius: 5%;
 }

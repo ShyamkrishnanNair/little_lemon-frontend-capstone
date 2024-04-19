@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Monica Geller",
+    "image": "customer1.jpg",
+    "testimonial": "The best and definitely the cleanest restaurant in Chicago! My husband loves the Greek Salad.",
+    "rating": "4/5"
+  },
+  {
+    "name": "Harvey Specter",
+    "image": "customer2.jpg",
+    "testimonial": "As someone, flying in every week from New York just for the Bruschetta, I'll say, it's definitely worth it.",
+    "rating": "4.5/5"
+  },
+  {
+    "name": "Michael Scott",
+    "image": "customer3.jpg",
+    "testimonial": "The spaghetti here is so fresh, long & delicious. That's what... never mind. That's what you'll say!",
+    "rating": "100/5"
+  },
+  {
+    "name": "Leslie Knope",
+    "image": "customer4.png",
+    "testimonial": "I will upload a link to the folder in which I have a detailed review of every food item here. No need to thank me. I've been trying to get one opened in Pawnee.",
+    "rating": "10/10"
+  }
+]

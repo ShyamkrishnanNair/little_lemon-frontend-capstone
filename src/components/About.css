@@ -1,4 +1,51 @@
 .about {
-  margin-top: 10vh;
-  height: 100vh;
+  height: 50rem;
+  display: flex;
+  align-items: center;
+  background-color: var(--primary-color);
+}
+
+.about-card {
+  background-color: white;
+  border-radius: 2.5rem;
+  margin: 4.5rem;
+  padding: 2.5rem;
+  height: 37rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about-info {
+  color: var(--secondary-color);
+  flex: 1;
+}
+
+.hero-title {
+  font-family: "Markazi Text";
+  font-size: 50pt;
+  margin: 0;
+  color: var(--primary-color);
+}
+
+.hero-subtitle {
+  font-family: "Markazi Text";
+  font-size: 30pt;
+  margin: 0;
+  color: var(--secondary-color);
+}
+
+.about-img-container {
+  flex: 1;
+  margin-left: 7.5rem;
+}
+
+.about-img {
+  height: 24rem;
+  width: 24rem;
+}
+
+.about-img img {
+  max-width: 100%;
+  border-radius: 1rem;
+  margin: 1.25rem;
 }

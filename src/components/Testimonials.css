@@ -1,6 +1,39 @@
-.testimonials-container {
-  margin-top: 5vh;
-  height: 60vh;
-  width: 100%;
-  background-color: #495e57;
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-color);
+  height: 32rem;
+}
+
+.testimonial-card {
+  margin: 1.25rem;
+  text-align: center;
+  background-color: var(--tertiary-color);
+  height: 22.5rem;
+  border-radius: 10%;
+  align-items: stretch;
+}
+
+.testimonial-card img {
+  margin-top: 1.5rem;
+  width: 45%;
+  height: 40%;
+  background-color: aliceblue;
+
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonial-card h3 {
+  margin: 1rem 0;
+}
+
+.testimonial-card p {
+  font-style: italic;
+}
+
+.testimonial-card blockquote {
+  font-style: italic;
 }
