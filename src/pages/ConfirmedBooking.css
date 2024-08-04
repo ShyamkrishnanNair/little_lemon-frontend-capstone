@@ -1,0 +1,25 @@
+.confirmation-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  background-color: var(--primary-color);
+}
+
+.confirmation-container h1 {
+  margin: 0;
+  padding: 0.625rem;
+  color: white;
+}
+
+.confirmation-container p {
+  font-size: 1.125rem;
+  color: var(--secondary-color);
+  background-color: white;
+  border: solid 0.2rem var(--secondary-color);
+  padding: 1.25rem;
+  text-align: center;
+  margin: 0.625rem 0;
+  width: 40%;
+}

@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import HomePage from './pages/HomePage';
 import Reservation from './pages/Reservation'
+import ConfirmedBooking from './pages/ConfirmedBooking';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
@@ -27,8 +28,10 @@ export default function App() {
                 <Reservation />
               </React.Fragment>
             }>
-
             </Route>
+            <Route path="/" element={<Reservation />} />
+            <Route path="/confirmed" element={<ConfirmedBooking />} />
+
 
           </Routes>
           <Footer />

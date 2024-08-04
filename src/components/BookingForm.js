@@ -1,11 +1,7 @@
 import React from 'react';
 
-function BookingForm({ availableTimes, bookingInfo, setBookingInfo }) {
+function BookingForm({ availableTimes, bookingInfo, setBookingInfo, onDateChange, submitForm }) {
     const { date, time, guests, occasion } = bookingInfo;
-
-    const handleDateChange = (event) => {
-        setBookingInfo({ ...bookingInfo, date: event.target.value });
-    };
 
     const handleTimeChange = (event) => {
         setBookingInfo({ ...bookingInfo, time: event.target.value });
@@ -26,6 +22,7 @@ function BookingForm({ availableTimes, bookingInfo, setBookingInfo }) {
 
     const handleSubmit = (event) => {
         event.preventDefault();
+        submitForm(bookingInfo);
     };
 
     return (
@@ -35,7 +32,7 @@ function BookingForm({ availableTimes, bookingInfo, setBookingInfo }) {
             </div>
             <form className='booking-form' onSubmit={handleSubmit}>
                 <label htmlFor="res-date">Date</label>
-                <input type="date" id="res-date" value={date} onChange={handleDateChange} />
+                <input type="date" id="res-date" value={date} onChange={onDateChange} />
 
                 <label htmlFor="res-time">Time</label>
                 <select id="res-time" value={time} onChange={handleTimeChange}>

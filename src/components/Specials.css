@@ -115,3 +115,219 @@
 .delivery:hover {
   background-position: bottom left;
 }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .specials-heading {
+    margin-left: 8rem;
+    margin-right: 14rem;
+  }
+
+  .specials-title {
+    font-size: 25pt;
+  }
+
+  .menu-btn {
+    height: 2.5rem;
+    width: 8rem;
+    font-size: 11pt;
+  }
+
+  .special-card {
+    height: 25rem;
+    width: 22%;
+  }
+
+  .special-img {
+    height: 35%;
+  }
+
+  .name-price {
+    padding: 0.75rem;
+  }
+
+  .item-name,
+  .item-price {
+    font-size: 13pt;
+  }
+
+  .item-desc {
+    font-size: 11pt;
+  }
+
+  .delivery {
+    font-size: 11pt;
+    margin-top: 21rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .specials-heading {
+    margin-left: 5rem;
+    margin-right: 10rem;
+  }
+
+  .specials-title {
+    font-size: 22pt;
+  }
+
+  .menu-btn {
+    height: 2.5rem;
+    width: 7rem;
+    font-size: 10pt;
+  }
+
+  .special-card {
+    height: 23rem;
+    width: 24%;
+  }
+
+  .special-img {
+    height: 30%;
+  }
+
+  .name-price {
+    padding: 0.5rem;
+  }
+
+  .item-name,
+  .item-price {
+    font-size: 12pt;
+  }
+
+  .item-desc {
+    font-size: 10pt;
+  }
+
+  .delivery {
+    font-size: 10pt;
+    margin-top: 19rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .specials-container {
+    margin-top: 3rem;
+    height: auto;
+  }
+
+  .specials-heading {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  .specials-title {
+    font-size: 18pt;
+    margin-bottom: -1rem;
+  }
+
+  .menu-btn {
+    height: 2.5rem;
+    width: 6rem;
+    font-size: 8pt;
+  }
+
+  .specials-cards {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .special-card {
+    height: auto;
+    width: 75%;
+    margin: 1rem 0;
+  }
+
+  .special-img {
+    height: auto;
+    width: 100%;
+  }
+
+  .name-price {
+    padding: 0.5rem;
+  }
+
+  .item-name,
+  .item-price {
+    font-size: 10pt;
+    margin-top: 0.5rem;
+  }
+
+  .item-desc {
+    font-size: 8pt;
+    margin-top: -2rem;
+  }
+
+  .delivery {
+    font-size: 8pt;
+    margin-top: 0.5rem;
+    width: 70%;
+    position: static;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .specials-container {
+    margin-top: 3rem;
+    height: auto;
+  }
+
+  .specials-heading {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  .specials-title {
+    font-size: 18pt;
+    margin-bottom: -1rem;
+  }
+
+  .menu-btn {
+    height: 2.5rem;
+    width: 6rem;
+    font-size: 8pt;
+  }
+
+  .specials-cards {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .special-card {
+    height: auto;
+    width: 75%;
+    margin: 1rem 0;
+  }
+
+  .special-img {
+    height: auto;
+    width: 100%;
+  }
+
+  .name-price {
+    padding: 0.5rem;
+  }
+
+  .item-name,
+  .item-price {
+    font-size: 10pt;
+    margin-top: 0.5rem;
+  }
+
+  .item-desc {
+    font-size: 8pt;
+    margin-top: -2rem;
+  }
+
+  .delivery {
+    font-size: 8pt;
+    margin-top: 0.5rem;
+    width: 70%;
+    position: static;
+    margin-bottom: 0.5rem;
+  }
+}

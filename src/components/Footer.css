@@ -54,8 +54,36 @@
   color: var(--primary-color);
   padding-left: 1vw;
   display: flex;
+  padding-top: 1rem;
 }
 
 .footer-bottom li {
   cursor: pointer;
+  margin-left: 2rem;
+}
+
+@media (max-width: 576px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    height: auto;
+    text-align: center;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-logo,
+  .footer-address,
+  .footer-nav {
+    margin: 1rem 0;
+  }
+
+  .footer-logo img {
+    height: auto;
+    width: 20vw;
+  }
+
+  .footer-nav ul {
+    gap: 1rem;
+  }
 }
